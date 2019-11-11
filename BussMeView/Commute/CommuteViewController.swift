@@ -12,6 +12,8 @@ class CommuteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // TEST
 
         // Do any additional setup after loading the view.
     }
