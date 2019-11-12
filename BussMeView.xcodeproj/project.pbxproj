@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0010BAF523796C35001D7287 /* timerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */; };
 		63EB554823794C380080E155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554723794C380080E155 /* AppDelegate.swift */; };
 		63EB554A23794C380080E155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554923794C380080E155 /* SceneDelegate.swift */; };
 		63EB554C23794C380080E155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554B23794C380080E155 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerCollectionViewCell.swift; sourceTree = "<group>"; };
 		63EB554423794C380080E155 /* BussMeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BussMeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EB554723794C380080E155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63EB554923794C380080E155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				63EB554923794C380080E155 /* SceneDelegate.swift */,
 				63EB554B23794C380080E155 /* ViewController.swift */,
 				63EB554D23794C380080E155 /* Main.storyboard */,
+				0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */,
 				63EB555323794C390080E155 /* Assets.xcassets */,
 				63EB555523794C390080E155 /* LaunchScreen.storyboard */,
 				63EB555823794C390080E155 /* Info.plist */,
@@ -316,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0010BAF523796C35001D7287 /* timerCollectionViewCell.swift in Sources */,
 				63EB558023794E5C0080E155 /* HomeViewController.swift in Sources */,
 				63EB558823794EA80080E155 /* CommuteViewController.swift in Sources */,
 				63EB554C23794C380080E155 /* ViewController.swift in Sources */,
