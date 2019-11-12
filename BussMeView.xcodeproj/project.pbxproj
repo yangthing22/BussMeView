@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0010BAF523796C35001D7287 /* timerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */; };
+		514AABC1237AB189000A4B78 /* buttonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AABC0237AB189000A4B78 /* buttonPrimary.swift */; };
 		63EB554823794C380080E155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554723794C380080E155 /* AppDelegate.swift */; };
 		63EB554A23794C380080E155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554923794C380080E155 /* SceneDelegate.swift */; };
 		63EB554C23794C380080E155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554B23794C380080E155 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerCollectionViewCell.swift; sourceTree = "<group>"; };
+		514AABC0237AB189000A4B78 /* buttonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = buttonPrimary.swift; path = ../../../../../../buttonPrimary.swift; sourceTree = "<group>"; };
 		63EB554423794C380080E155 /* BussMeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BussMeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EB554723794C380080E155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63EB554923794C380080E155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		514AABBF237AB153000A4B78 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				514AABC0237AB189000A4B78 /* buttonPrimary.swift */,
+			);
+			name = Style;
+			path = Alert/BussMeView/Alert/Style;
+			sourceTree = "<group>";
+		};
 		63EB553B23794C380080E155 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +126,7 @@
 		63EB554623794C380080E155 /* BussMeView */ = {
 			isa = PBXGroup;
 			children = (
+				514AABBF237AB153000A4B78 /* Style */,
 				63EB557C23794E390080E155 /* Commute */,
 				63EB557B23794E260080E155 /* On Going Trip */,
 				63EB557A23794E190080E155 /* Home */,
@@ -154,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				63EB557E23794E5C0080E155 /* HomeViewController.swift */,
-				63EB557F23794E5C0080E155 /* HomeViewController.xib */,
 				63EB558223794E850080E155 /* HomeStoryboard.storyboard */,
+				63EB557F23794E5C0080E155 /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -325,6 +337,7 @@
 				63EB554C23794C380080E155 /* ViewController.swift in Sources */,
 				63EB555223794C380080E155 /* BussMeView.xcdatamodeld in Sources */,
 				63EB554823794C380080E155 /* AppDelegate.swift in Sources */,
+				514AABC1237AB189000A4B78 /* buttonPrimary.swift in Sources */,
 				63EB554A23794C380080E155 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
