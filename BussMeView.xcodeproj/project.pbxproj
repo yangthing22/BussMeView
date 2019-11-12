@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0010BAF523796C35001D7287 /* timerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */; };
-		514AABC1237AB189000A4B78 /* buttonPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AABC0237AB189000A4B78 /* buttonPrimary.swift */; };
+		510736A7237AB23E002713A4 /* primaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510736A6237AB23E002713A4 /* primaryButton.swift */; };
 		63EB554823794C380080E155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554723794C380080E155 /* AppDelegate.swift */; };
 		63EB554A23794C380080E155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554923794C380080E155 /* SceneDelegate.swift */; };
 		63EB554C23794C380080E155 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB554B23794C380080E155 /* ViewController.swift */; };
@@ -45,7 +45,7 @@
 
 /* Begin PBXFileReference section */
 		0010BAF423796C35001D7287 /* timerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timerCollectionViewCell.swift; sourceTree = "<group>"; };
-		514AABC0237AB189000A4B78 /* buttonPrimary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = buttonPrimary.swift; path = ../../../../../../buttonPrimary.swift; sourceTree = "<group>"; };
+		510736A6237AB23E002713A4 /* primaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = primaryButton.swift; path = BussMeView/primaryButton.swift; sourceTree = SOURCE_ROOT; };
 		63EB554423794C380080E155 /* BussMeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BussMeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63EB554723794C380080E155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63EB554923794C380080E155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		514AABBF237AB153000A4B78 /* Style */ = {
 			isa = PBXGroup;
 			children = (
-				514AABC0237AB189000A4B78 /* buttonPrimary.swift */,
+				510736A6237AB23E002713A4 /* primaryButton.swift */,
 			);
 			name = Style;
 			path = Alert/BussMeView/Alert/Style;
@@ -337,7 +337,7 @@
 				63EB554C23794C380080E155 /* ViewController.swift in Sources */,
 				63EB555223794C380080E155 /* BussMeView.xcdatamodeld in Sources */,
 				63EB554823794C380080E155 /* AppDelegate.swift in Sources */,
-				514AABC1237AB189000A4B78 /* buttonPrimary.swift in Sources */,
+				510736A7237AB23E002713A4 /* primaryButton.swift in Sources */,
 				63EB554A23794C380080E155 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
